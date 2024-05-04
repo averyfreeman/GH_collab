@@ -1,0 +1,18 @@
+[project]
+name = "hello-django"
+version = "0.1.0"
+description = "A happy place to live"
+authors = [
+    { name = "Avery Freeman", email = "averyfreeman@gmail.com" }
+]
+dependencies = [
+    "django==3.1.1",
+    "gunicorn==20.0.4",
+]
+readme = "README.md"
+requires-python = ">= 3.12.2"
+
+[tool.rye]
+managed = true
+virtual = true
+dev-dependencies = []
